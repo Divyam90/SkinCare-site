@@ -1,0 +1,87 @@
+.container{
+    padding: 0rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.wrapper{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+}
+.wrapper img{
+    width: 20rem;
+    position: absolute;
+}
+.blue{
+    /* margin-bottom: 90px; */
+    top: 10%;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    z-index: -99;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.cart2{
+    position: absolute;
+    bottom: 25%;
+    right :8%;
+    bottom: -11%;
+    gap: 1rem;
+    align-items: center;
+}
+.signup{
+    background-color: white;
+    border-radius: 15px;
+    font-size: 0.5rem;
+    padding: 10px;
+}
+
+.h-side{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.text1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: min-content;
+    display: block;
+    font-weight: 600;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    color:black;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 5px;
+}
+.text3{
+    font-weight: 500;
+    color: #560000;
+}
+
+.traffic{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+.traffic>:first-child{
+    font-weight: 800;
+    font-size: 2.5rem;
+
+}
+.customers{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+.customers>:first-child{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
